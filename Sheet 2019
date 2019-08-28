@@ -1,0 +1,74 @@
+TOOLS
+-----------------------------------------
+L0phtCrack - Password auditing and recovery application, test password strength, recover lost Windows passwords
+SMBGrind
+Eblaster - Logging and monitoring
+HK.exe - exploit a local procedure call (LPC) flaw in windows
+PsExec - 
+NBTdeputy - can registrar NetBIOS names on the network so that SMBRelay can be carried out on machine names
+Netsh - configure network local or remote machines.
+NBName - NetBIOS DDOS
+SMBDie - crash a Windows NT system by sending crafted SMB packets.
+C2MYAZZ - spyware program that forces Windows to send a cleartext password.
+Enum, UserInfo, SMBBF - used to enumerate SID
+Hammer - session hijacking tool.
+Cain and Abel - password brute forcing tool
+John the Ripper - password attack tool.
+Backstealth - tunnel traffic through HTTP.
+NBTSTAT - NETBIOS information port 137.
+Websleuth - web application auditing tool.
+Sam Spade - Foot-printing, zone transfer tool.
+Pandora - attack a netware server
+NWPCrack - Dictionary attack on a netware server
+Hunt-tool - MTM attacks
+NetStumbler - Detection of Wireless LANs using the 802.11b, 802.11a and 802.11g
+Netcraft - discover the webserver and operating system of a site.
+- steganography attack tools
+pwdump2 - hashing extraction from the SAM file in windows systems.
+SMBRelay - MITM
+M4sT3r - Trojan that destroys the operating system.
+Ghost Eye worm - Sends random messages on Facebook, steam or chat websites to get passwords.
+Neverquest - attack popular banking websites 
+
+ATTACK TYPES
+-----------------------------------------
+A Replay attack - Passive online attack
+SYN flood attacks - sending continuous SYN packets to the victim’s machine to put it off the service.
+ICMP flood attack - DDOS attack where the attacker can use any ICMP packet to perform DDOS.
+Smurf attack - ICMP Echo packets directed towards the 255.255.255.255 address of his network.
+Passive attack - Sniffing a password from a wireless network
+
+Nmap scan Techniques
+-----------------------------------------
+-sP = Ping scan
+-sS = TCP SYN scan (stealth syn scan)
+-sT = Connect scan 
+-sA = ACK scan 
+-sW = Window scan 
+-sM = Maimon scan 
+-sU = UDP Scan
+-sN = TCP Null scan 
+-sF = FIN scan 
+-sX = Xmas scan
+-sI = Idle scan
+-sY = SCTP INIT scan
+-sZ = COOKIE-ECHO scan
+-sO = IP protocol scan
+-b “FTP relay host” = FTP bounce scan
+-sn - Ping Scan — disable port scan
+-sW = Window Scan
+-sR = RPC Scan
+-sL - List Scan — simply list targets to scan
+
+Lows
+-----------------------------------------
+ISO 27001 - how to perform a risk assessment.
+ISO 27002 - how to apply security controls after performing the risk assessment described in ISO 27001.
+ISO 27005 - how to best manage security risks using an organized and systematic approach.
+ISO 27006 - audits and certifications
+
+key escrow agreements - Facilitate recovery operations
+
+OTHER NOTES:
+-----------------------------------------
+Virus : Design, Replication, Launch, Detection, Incorporation, Elimination
