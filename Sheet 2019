@@ -28,7 +28,8 @@ pwdump2 - hashing extraction from the SAM file in windows systems.
 SMBRelay - MITM
 M4sT3r - Trojan that destroys the operating system.
 Ghost Eye worm - Sends random messages on Facebook, steam or chat websites to get passwords.
-Neverquest - attack popular banking websites 
+Neverquest - attack popular banking websites
+capinfos - Wireshark command line tool that reads a capture and returns statistics on that file. 
 
 ATTACK TYPES
 -----------------------------------------
@@ -37,6 +38,7 @@ SYN flood attacks - sending continuous SYN packets to the victim’s machine to 
 ICMP flood attack - DDOS attack where the attacker can use any ICMP packet to perform DDOS.
 Smurf attack - ICMP Echo packets directed towards the 255.255.255.255 address of his network.
 Passive attack - Sniffing a password from a wireless network
+Amplification attack - 
 
 Nmap scan Techniques
 -----------------------------------------
@@ -72,3 +74,6 @@ key escrow agreements - Facilitate recovery operations
 OTHER NOTES:
 -----------------------------------------
 Virus : Design, Replication, Launch, Detection, Incorporation, Elimination
+
+
+https://www.cengage.com/resource_uploads/downloads/1435488539_221998.pdf
